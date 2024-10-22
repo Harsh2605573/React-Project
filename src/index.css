@@ -1,13 +1,469 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    /* --------------Home Page CSS Start---------- */
+    .home {
+      background-color: black;
+      width: 100%;
+      height: 900px;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 15px;
+    }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    .logo {
+      margin-bottom: 30px;
+    }
+
+    .home h1 {
+      margin: 0 0 30px 0;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 56px;
+      color: #fff;
+    }
+
+    .home h2 {
+      color: #aeaeae;
+      margin-bottom: 30px;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    .btn {
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      letter-spacing: 1px !important;
+      display: inline-block;
+      padding: 14px 30px !important;
+      border: 3px !important;
+      margin: 10px !important;
+      color: #fff !important;
+      background: #7cc576 !important;
+    }
+
+    /* --------------Home Page CSS End---------- */
+
+    /* --------------Navbar Page CSS Start---------- */
+    .menu {
+      background-color: white;
+      color: #7cc576;
+      height: 20px;
+      width: 100%;
+    }
+
+    .menupage {
+      text-transform: capitalize;
+      align-items: center;
+      justify-content: space-between;
+      font: 15px;
+      color: #151515;
+      font-weight: 400;
+      font-family: "Open Sans", sans-serif !important;
+    }
+
+    .menupage:hover {
+      color: #7cc576 !important;
+    }
+
+    /* --------------Navbar Page CSS End---------- */
+
+    /* --------------About Page CSS Start---------- */
+    .about1 {
+      padding: 60px 0;
+      overflow: hidden;
+      font-family: "Open Sans", sans-serif !important;
+    }
+
+    .about2 {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+
+    .about2 h2 {
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      padding-bottom: 0;
+      color: #151515;
+      font-family: "Montserrat", sans-serif !important;
+      line-height: 1.2;
+    }
+
+    .about2 p {
+      margin-bottom: 0;
+      color: #aeaeae;
+      margin-top: 0;
+    }
+
+    .aboutimg {
+      padding: 20px;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .about3 {
+      padding-top: 0;
+    }
+
+    .about3 h3 {
+      font-weight: 600;
+      font-size: 26px;
+      font-family: "Montserrat", sans-serif !important;
+      margin-bottom: .5rem;
+      line-height: 1.2;
+      color: #555555;
+    }
+
+    .about3 .first {
+      font-style: italic !important;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #555555;
+    }
+
+    .about3 .second {
+      margin-bottom: 0;
+      color: #555555;
+    }
+
+    .about3 .ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #555555;
+    }
+
+    .about3 .ul .li {
+      padding-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .about3 .ul .li .icon {
+      font-size: 24px;
+      padding: 2px 6px 0 0;
+      color: #7cc576;
+      line-height: 1;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    /* --------------About Page CSS End---------- */
+
+    /* --------------Service Page CSS Start---------- */
+    .service1 {
+      padding: 60px 0;
+      overflow: hidden;
+      font-family: "Open Sans", sans-serif !important;
+    }
+
+    .service2 {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+
+    .service2 h2 {
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      padding-bottom: 0;
+      color: #151515;
+      font-family: "Montserrat", sans-serif !important;
+      line-height: 1.2;
+    }
+
+    .service2 p {
+      margin-bottom: 0;
+      color: #aeaeae;
+      margin-top: 0;
+    }
+
+    .service3 {
+      padding-top: 0;
+    }
+
+    .ser3 .icon {
+      font-size: 48px;
+      float: left;
+      color: #7cc576;
+      line-height: 1;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .ser3 h4 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 5px 0 10px 60px;
+      font-family: "Montserrat", sans-serif !important;
+      color: #555555;
+    }
+
+    .ser3 p {
+      font-size: 15px;
+      color: #959595;
+      margin-left: 60px;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    /* --------------Service Page CSS End---------- */
+
+    /* --------------Portfolio Page CSS Start---------- */
+    .portfolio1 {
+      padding: 60px 0;
+      overflow: hidden;
+      font-family: "Open Sans", sans-serif !important;
+    }
+
+    .portfolio2 {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+
+    .portfolio2 h2 {
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      padding-bottom: 0;
+      color: #151515;
+      font-family: "Montserrat", sans-serif !important;
+      line-height: 1.2;
+    }
+
+    .portfolio2 p {
+      margin-bottom: 0;
+      color: #aeaeae;
+      margin-top: 0;
+    }
+
+    .portfolio3 {
+      display: flex;
+      justify-content: center !important;
+    }
+
+    .portfolio3 .ul {
+      padding: 0;
+      margin: 0 auto 25px auto;
+      text-align: center;
+      list-style: none;
+      display: flex;
+    }
+
+    .portfolio3 .ul .li {
+      cursor: pointer;
+      padding: 10px 18px 12px 18px;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin: 0 4PX 10PX 4PX;
+      border-radius: 4px;
+      background-color: #7cc576;
+      color: #fff;
+      width: 60px;
+      height: 36px;
+      text-align: center;
+    }
+
+    .portfo {
+      left: 0;
+      top: 0;
+      margin-bottom: 30px;
+    }
+
+    .portfolio4 {
+      transition: 0.3s;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .porimg1 {
+      width: 356px;
+      height: 267px;
+    }
+
+    .portfolio-info {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 356px;
+      height: 267px;
+      background-color: rgba(0, 0, 0, 0.562);
+      opacity: 1;
+    }
+
+    .portfolio-info h4 {
+      color: #fff;
+      font-weight: bold;
+      opacity: 2 !important;
+    }
+
+    .portfolio-info p {
+      color: #fff;
+    }
+
+    .portfolio4:hover .portfolio-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+    }
+
+    .portfolio-link p {
+      margin-top: 20px;
+    }
+
+    .portfolio-link a {
+      color: #fff;
+      font-size: 23px;
+      padding: 5px;
+    }
+
+    .portfolio-link a:hover {
+      color: #08b656 !important;
+    }
+
+    /* --------------Portfolio Page CSS End---------- */
+
+    /* --------------Clients Page CSS Start---------- */
+    #client {
+      background: whitesmoke;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    .client2 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #client img {
+      width: 50%;
+      filter: grayscale(100);
+      transition: all 0.4s ease-in-out !important;
+      /* display: inline-block; */
+      padding: 15px 0;
+    }
+
+    #client img:hover {
+      filter: none;
+
+      transform: scale(1.2);
+    }
+
+    /* --------------Clients Page CSS End---------- */
+
+    /* --------------Team Page CSS Start---------- */
+    #team {
+      background: #fff;
+    }
+
+    .team1 {
+      padding: 60px 0;
+      overflow: hidden;
+      font-family: "Open Sans", sans-serif !important;
+    }
+
+    .team2 {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+
+    .team2 h2 {
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      padding-bottom: 0;
+      color: #151515;
+      font-family: "Montserrat", sans-serif !important;
+      line-height: 1.2;
+    }
+
+    .team2 p {
+      margin-bottom: 0;
+      color: #aeaeae;
+      margin-top: 0;
+    }
+
+    .team3 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .team4 {
+      align-items: stretch !important;
+      display: flex !important;
+    }
+
+    .team-img {
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+    }
+
+    .team-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .team-social{
+      position: absolute;
+      left: 0;
+      bottom: -40%;
+      right: 0;
+      height: 40px;
+      opacity: 1;
+      transition: bottom ease-in-out 0.4s;
+      background: rgba(124, 197, 118, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30PX;
+      font-size: large;
+    }
+
+    .team-img:hover .team-social{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      bottom:0;
+    }
+    .team-social a{
+      color: #fff;
+      opacity: 0.7;
+    }
+    .team-info h4{
+      font-weight: 700;
+    margin: 15px 0 5px 0;
+    font-size: 18px;
+    }
+    .team-info span{
+      display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #7cc576;
+    }
+    .team-info p{
+      font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #888888;
+    }
